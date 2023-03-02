@@ -1,0 +1,416 @@
+/* fonte ubuntu 400 */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    background: linear-gradient(126.25deg, #F6F1FF 0%, rgba(222, 220, 226, 0.74) 100%);
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.main {
+    /* background: #000; */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    /* box-sizing: border-box; */
+
+}
+
+.header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 3%;
+    background: linear-gradient(104.21deg, rgba(141, 54, 250, 0.94) 0.21%, #8D36FA 0.22%, #A15FF3 36.91%, #A15FF3 69.97%, #8653F1 100%);
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 5rem;
+    margin-right: 0.6rem;
+}
+
+.logo h1 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    /* padding-bottom: 2%; */
+    padding: 4% 5% 0% 5%;
+}
+
+.blog .title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+
+    background: linear-gradient(90deg, #0D062F 0%, rgba(48, 14, 215, 0.980889) 50.81%, #8D36FA 101.62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.blog .news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    width: 100%;
+}
+
+.blog .news .news_item {
+    width: 29%;
+    margin: 2%;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    /* padding:; */
+    text-decoration: none;
+}
+
+.blog .news .news_item img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    /* border-radius: 15px; */
+}
+
+.blog .news .news_item h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    /* letter-spacing: -0.1em; */
+
+    color: rgba(28, 0, 107, 0.958617);
+    background: #F8F8F8;
+}
+
+.blog .news .news_item p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    /* letter-spacing: -0.1em; */
+    padding: 1% 5%;
+    color: #000;
+}
+
+.contact {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    /* overflow: hidden; */
+    /* padding-bottom: 2%; */
+    padding: 3% 5%;
+}
+
+.contact .logo {
+    /* width: 40%; */
+    text-decoration: none;
+}
+.contact .logo img {
+    /* width: 100%; */
+    height: 9rem;
+    /* object-fit: cover; */
+    /* border-radius: 15px; */
+}
+.contact .logo h1 {
+    color: #8D36FA;
+    font-size: 2rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10%;
+    /* width: 20%; */
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact .social {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    width: 40%;
+    padding: 0 0 0 8%;
+    margin: 0;
+    
+}
+
+.contact .social .icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.contact .social .icons a {
+    width: 12%;
+}
+
+.contact .social .icons a img {
+    filter: opacity(0.8);
+    width: 100%;
+}
+
+.contact .social h1 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    /* padding-bottom: 2%; */
+    padding: 2% 4% 4% 4%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1000px) {
+    /* Blog */
+    .blog .title {
+        /* font-size: 2.9rem; */
+        text-align: center;
+    }
+
+    .blog .news .news_item {
+        width: 40%;
+        margin-bottom: 5%;
+    }
+
+    .blog .button {
+        padding: 1.5% 5%;
+    }
+
+    /* contact */
+    .contact .social {
+        padding-left: 0;
+    }
+
+    .contact .links {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .contact {
+        order: 1;
+        flex-direction: column;
+        /* align-items: first baseline;
+        justify-content: left; */
+    }
+    .contact .logo {
+        margin-bottom: 5%;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+
+    .contact .links {
+        order:3;
+        width: 70%;
+    }
+
+    .contact .links ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: unset;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .contact .social {
+        order:2;
+        width: 50%;
+        margin-bottom: 5%;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+}
+
+@media screen and (max-width: 710px) {
+    /* header */
+    .header .logo {    
+        margin: auto;
+        transform: translateX(-5%);
+    }
+
+    /* blog */
+    .blog .news .news_item {
+        width: 70%;
+    }
+
+    .blog button {
+        padding: 2% 6%;
+    }
+
+    /* contact */
+    .contact .links {
+        width: 80%;
+    }
+
+    .contact .social {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    /* contact */
+    .contact .links {
+        width: 85%;
+    }
+
+    .contact .social {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    /* contact */
+    .contact .logo img {
+        height: auto;
+        width: 7.5rem;
+    }
+    .contact .links ul li {
+        margin-right: 3%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    /* blog */
+    .blog .news .news_item {
+        width: 80%;
+    }
+
+    .blog button {
+        padding: 2.3% 9%;
+        font-size: 1.2rem;
+        margin-bottom: 3%;
+    }
+
+    /* contact */
+    .contact .social {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    /* header */
+    .header .menu {
+        visibility: hidden;
+     }
+
+    /* blog */
+    .blog .title {
+        font-size: 2rem;
+    }
+
+    .blog .news .news_item {
+        width: 90%;
+    }
+
+    /* contact */
+    .contact .social {
+        width: 90%;
+    }
+
+    .contact .logo img {   
+        width: 5.9rem;
+    }
+
+    .contact .logo h1 {
+        font-size: 1.5rem;
+    }
+}
