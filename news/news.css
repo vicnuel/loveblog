@@ -57,6 +57,11 @@
     width: 100%;
 }
 
+.adequar {
+    /* borda arredondada */
+    border-radius: 5%;
+}
+
 @media screen and (max-width: 950px) {
     .new .contents p {
         width: 90%;
